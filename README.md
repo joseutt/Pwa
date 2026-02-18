@@ -1,18 +1,66 @@
-# React + Vite
+# PokePWA React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación Web Progresiva (PWA) desarrollada con React que consume la PokeAPI para buscar y visualizar información de Pokémon. Esta aplicación permite instalación en el dispositivo, funcionamiento offline básico y consumo de una API REST pública.
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+PokePWA React es una Progressive Web App que permite al usuario buscar un Pokémon por nombre y visualizar información relevante como imagen, nombre, tipo, habilidades, estadísticas, peso y altura. La aplicación está diseñada para funcionar tanto online como offline (modo básico) y puede instalarse como una aplicación nativa en dispositivos compatibles.
 
-## React Compiler
+## Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Aplicación desplegada en Vercel:
 
-## Expanding the ESLint configuration
+https://pwa-five-wine.vercel.app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Repositorio GitHub:
 
-# Pwa
+https://github.com/joseutt/Pwa
+
+---
+
+## Tecnologías utilizadas
+
+- React 19
+- Vite
+- vite-plugin-pwa
+- JavaScript
+- HTML5
+- CSS3
+- PokeAPI (API REST pública)
+- Vercel (deploy)
+
+---
+
+## Características principales
+
+- Consumo de API REST pública (PokeAPI)
+- Progressive Web App (PWA)
+- Instalación en dispositivo
+- Service Worker funcional
+- Archivo manifest.json
+- Funcionamiento offline básico
+- Interfaz moderna y responsiva
+- Despliegue en la nube
+
+---
+
+## Funcionalidades
+
+El usuario puede:
+
+- Buscar un Pokémon por nombre
+- Ver imagen del Pokémon
+- Ver nombre
+- Ver ID
+- Ver tipo(s)
+- Ver habilidades
+- Ver peso
+- Ver altura
+- Ver estadísticas base
+- Instalar la aplicación en su dispositivo
+- Usar la aplicación offline (modo básico)
+
+---
+
+## Estructura del proyecto
+
